@@ -2,7 +2,7 @@ const Header = ({ successMsg, setSuccessMsg, showErrorMsg, setErrorMsg }) => {
   return (
     <>
       <header>
-        <img src="images/open-book.png" alt="open-book" />
+        <img src="open-book.png" alt="open-book" />
         <h1>
           My<span>Book</span>List
         </h1>
