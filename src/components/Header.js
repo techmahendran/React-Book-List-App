@@ -1,8 +1,10 @@
+import BookImage from "../assets/open-book.png";
+
 const Header = ({ successMsg, setSuccessMsg, showErrorMsg, setErrorMsg }) => {
   return (
     <>
       <header>
-        <img src="open-book.png" alt="open-book" />
+        <img src={BookImage} alt="open-book" />
         <h1>
           My<span>Book</span>List
         </h1>
