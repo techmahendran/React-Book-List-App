@@ -128,7 +128,10 @@ td {
 table tbody {
   text-align: left;
 }
-
+table td:not(:last-child) {
+  word-break: break-all;
+  width: 147px;
+}
 table i {
   cursor: pointer;
   background-color: red;
