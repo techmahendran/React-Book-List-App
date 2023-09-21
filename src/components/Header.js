@@ -1,4 +1,4 @@
-import BookImage from "../assets/open-book.png";
+import BookImage from "../assets/Images/open-book.png";
 
 const Header = ({ successMsg, setSuccessMsg, showErrorMsg, setErrorMsg }) => {
   return (
